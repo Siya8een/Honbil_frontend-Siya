@@ -1,0 +1,19 @@
+.icons-nav {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 50%;
+  transform: translate(0, -50%);
+  cursor: pointer;
+  justify-content: space-between;
+  transition: 1s;
+  background-color: transparent;
+  backdrop-filter: blur(5px);
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  box-shadow: 6px 4px 5px 1px #8f8f944f;
+}
+.icons {
+  margin: 1rem 0;
+  padding: 0.5rem;
+}
